@@ -10,4 +10,3 @@ post "/get_change" do
 	returned_cents = generate_change(input_cents)
 	"Your change is #{returned_cents}"
 end
-	
